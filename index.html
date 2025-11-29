@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System | Java Swing Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slide-container">
+        <!-- Slide 1: Title -->
+        <div class="slide active">
+            <h1>Student Management System</h1>
+            <h2>Java Swing & MySQL Project</h2>
+            <p class="center-content">
+                An efficient desktop application for managing educational records.<br>
+                Developed by <strong>Group 5</strong>
+            </p>
+            <div class="footer">Next: Features &rarr;</div>
+        </div>
+
+        <!-- Slide 2: Tech Stack -->
+        <div class="slide">
+            <h2>🛠️ Technology Stack</h2>
+            <ul>
+                <li><strong>Frontend (GUI):</strong> Java Swing (JFrame, JPanel)</li>
+                <li><strong>Backend:</strong> Java JDBC (Java Database Connectivity)</li>
+                <li><strong>Database:</strong> MySQL Relational Database</li>
+                <li><strong>Key Concepts:</strong> OOP, Event Handling, SQL Integration</li>
+            </ul>
+        </div>
+
+        <!-- Slide 3: Features -->
+        <div class="slide">
+            <h2>✨ Key Features</h2>
+            <ul>
+                <li><strong>CRUD Operations:</strong> Create, Read, Update, Delete student records.</li>
+                <li><strong>Data Validation:</strong> Prevents invalid dates or email formats.</li>
+                <li><strong>Search:</strong> Instant lookup by Student ID.</li>
+                <li><strong>Secure Storage:</strong> Data persists in local MySQL database.</li>
+            </ul>
+        </div>
+        
+        <!-- Slide 4: Screenshots -->
+        <div class="slide">
+            <h2>📸 Project Preview</h2>
+            <p style="text-align:center; font-size: 1rem;">
+                (Screenshots of the Java Application running on Windows)
+            </p>
+            <!-- Ensure your images are in the same folder -->
+            <img src="Screenshot-2023-11-08-174322.jpg" alt="Main Interface" style="max-width:80%; border-radius:10px; margin: 0 auto; display:block;">
+        </div>
+
+        <!-- Slide 5: Conclusion -->
+        <div class="slide">
+            <h2>🚀 Learning Outcomes</h2>
+            <p>Through this project, we mastered:</p>
+            <ul>
+                <li>Building desktop GUIs with Java Swing.</li>
+                <li>Connecting Java to Database using JDBC.</li>
+                <li>Executing SQL queries via PreparedStatement.</li>
+            </ul>
+            <p class="center-content" style="margin-top: 20px;">
+                <strong>Thank You!</strong>
+            </p>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+        <button class="btn btn-secondary" onclick="prevSlide()">&#8592; Back</button>
+        <button class="btn" onclick="nextSlide()">Next &#8594;</button>
+    </div>
+    
+    <div class="progress-bar" id="progressBar"></div>
+    <script src="script.js"></script>
+</body>
+</html>
